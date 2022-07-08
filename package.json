@@ -1,0 +1,23 @@
+{
+  "name": "simonhaefliger.ch",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "test": "xo && prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^2.6.1",
+    "vite": "^2.9.0",
+    "vite-plugin-handlebars": "^1.6.0",
+    "xo": "^0.48.0"
+  },
+  "xo": {
+    "space": true,
+    "rules": {
+      "unicorn/prefer-module": "off"
+    }
+  }
+}
