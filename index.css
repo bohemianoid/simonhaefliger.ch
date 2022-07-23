@@ -1,15 +1,1 @@
-html {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  margin: 0 auto;
-  width: 75ch;
-}
-
-.text-employer {
-  color: rgb(255, 150, 31);
-}
-
-.decoration-none {
-  text-decoration: none;
-}
+@import 'tufte-css/tufte';

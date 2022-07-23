@@ -1,3 +1,3 @@
 # simonhaefliger.ch
 
-Personal Website of Simon Häfliger
+> Personal Website of Simon Häfliger
