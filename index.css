@@ -1,1 +1,53 @@
 @import 'tufte-css/tufte';
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem 0;
+}
+
+.fullwidth {
+  max-width: 88%;
+}
+
+.columns {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+}
+
+nav ul {
+  list-style: none;
+  -webkit-padding-start: 0;
+}
+
+address {
+  font-style: normal;
+}
+
+address ul {
+  list-style: none;
+  -webkit-padding-start: 0;
+}
+
+.credits {
+  text-align: center;
+}
+
+@media (max-width: 760px) {
+  .fullwidth {
+    max-width: 100%;
+  }
+}
