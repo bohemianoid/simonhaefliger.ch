@@ -7,10 +7,14 @@
     "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview --host",
-    "test": "xo && prettier --write ."
+    "test": "xo && stylelint index.css && prettier --write ."
   },
   "devDependencies": {
     "prettier": "2.7.1",
+    "stylelint": "^14.9.1",
+    "stylelint-config-idiomatic-order": "^8.1.0",
+    "stylelint-config-standard": "^26.0.0",
+    "stylelint-order": "^5.0.0",
     "tufte-css": "^1.8.0",
     "vite": "^3.0.0",
     "vite-plugin-handlebars": "^1.6.0",
